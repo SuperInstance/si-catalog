@@ -1,0 +1,15 @@
+[package]
+name = "si-catalog"
+version = "0.1.0"
+edition = "2021"
+description = "Unified capability catalog for SuperInstance — search, cross-reference, and discover fleet capabilities"
+license = "MIT"
+repository = "https://github.com/SuperInstance/si-catalog"
+keywords = ["superinstance", "catalog", "capabilities", "fleet"]
+categories = ["data-structures", "database"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
